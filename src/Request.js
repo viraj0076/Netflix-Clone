@@ -1,5 +1,5 @@
 
-const key = REACT_APP_IMDB_API_KEY;
+const key = process.env.REACT_APP_IMDB_API_KEY;
 
 
 const requests ={
