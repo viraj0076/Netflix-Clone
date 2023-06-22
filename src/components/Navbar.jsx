@@ -26,7 +26,7 @@ const Navbar = () => {
       {user?.email ? (
         <div>
           <Link to='/account'>
-            <button className='text-white pr-4'>Account</button>
+            <button className='text-white pr-4'>Saved Show</button>
           </Link>
           <button
             onClick={handleLogout}
